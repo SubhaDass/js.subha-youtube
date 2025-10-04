@@ -14,4 +14,4 @@ let state = null;
 
 // objects
 
-console.log(typeof 10);
+console.log(typeof age);
