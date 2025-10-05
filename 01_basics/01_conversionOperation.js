@@ -22,9 +22,27 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "kvssd" -> true
 
 let someNumber = 45
-console.log(typeof someNumber);
+//console.log(typeof someNumber);
 
 let stringnumber = String(someNumber)
-console.log(stringnumber);
-console.log(typeof stringnumber);
+//console.log(stringnumber);
+//console.log(typeof stringnumber);
+
+// ******************* Operations ************************
+
+let value = 4
+let negvalue = -value
+//console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+
 
