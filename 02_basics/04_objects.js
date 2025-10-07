@@ -28,7 +28,7 @@ const obj3 = {5: "e", 6: "f"}
 // const obj4 = {obj1, obj2}
 // const obj4 = Object.assign({}, obj1, obj2, obj3) // Object.assign(target, source)
 const obj4 = {...obj1, ...obj2, ...obj3}
-console.log(obj4);
+// console.log(obj4);
 
 const user = [
     {
@@ -51,8 +51,37 @@ const user = [
 
 user[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+// destructuring of objects
+const course = {
+    courseName: "javascript",
+    price: "999",
+    courseInstructor: "subha"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor: instructor} = course
+// console.log(instructor);
+
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = " subhadas")
+
+//JSON STRUCTURE
+// {
+//     "name": "subha",
+//     "course": "javascript",
+//     "price": "free",
+// }
+[
+    {},
+    {},
+    {}
+]
