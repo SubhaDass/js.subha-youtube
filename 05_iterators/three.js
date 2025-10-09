@@ -1,12 +1,12 @@
 // for of
 
-// 'for of' on array
+// 'for of' in array
 let arr = [2, 5 , 8, 4, 1]
 for (const num of arr) {
     // console.log(`number is ${num}`);
 }
 
-// 'for of' on strings
+// 'for of' in strings
 let wish = "happy birthday"
 for(const i of wish) {
     // console.log(`wish you ${i}`);
@@ -19,12 +19,12 @@ map.set("SL" , "SRILANKA")
 map.set("ENG" , "ENGLAND")
 // console.log(map);
 
-// 'for of' on Maps
+// 'for of' in Maps
 for(const [key, val] of map){
-    console.log(key, ":-", val);
+    //console.log(key, ":-", val);
 }
 
-// 'for of' on Objects
+// 'for of' in Objects
 const myObj = {
     game1: "pes",
     game2: "bgmi"
