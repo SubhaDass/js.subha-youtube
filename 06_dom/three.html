@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style ="background-color: #212121; color: #ffff;" >
+    
+</body>
+<script>
+    const _div = document.createElement('div')
+    console.log(_div);
+    _div.className = 'main'
+    _div.id = Math.round(Math.random() * 10 + 1)
+    _div.setAttribute("title", "new atribute")
+    _div.style.backgroundColor = 'green'
+    _div.style.padding = '10px'
+    // _div.innerText = 'subha javascript'
+    const addText = document.createTextNode("subha javascript")
+    _div.appendChild(addText)
+    document.body.appendChild(_div)
+</script>
+</html>
